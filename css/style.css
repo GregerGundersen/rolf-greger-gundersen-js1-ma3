@@ -1,0 +1,41 @@
+body {
+  background-color: #161616;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  padding: 2rem;
+  margin: 1rem;
+  width: 10rem;
+  border-radius: 10%;
+  background-color: #202020;
+  color: white;
+}
+
+.gameimg {
+  width: 100%;
+}
+
+.error {
+  background-color: #202020;
+  border: 1px solid red;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.fas {
+  font-size: 3rem;
+}
+#loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
